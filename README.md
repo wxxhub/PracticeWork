@@ -9,7 +9,7 @@
 > [李琛](practice/lc)
 > [陈红权](practice/chq)
 > [胡恒超](practice/hhc)
-> [黄宇欣](practice/hyx)
+> [黄宇昕](practice/hyx)
 > [张宇寰](practice/zyh)
 > [路少峰](practice/lsf)
 
