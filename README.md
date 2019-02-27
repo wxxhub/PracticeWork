@@ -9,7 +9,7 @@
 > [李琛](practice/lc)
 > [陈红权](practice/chq)
 > [胡恒超](practice/hhc)
-> [黄宇欣](practice/hyx)
+> [黄宇昕](practice/hyx)
 > [张宇寰](practice/zyh)
 > [路少峰](practice/lsf)
 
@@ -22,3 +22,6 @@
 > [03_String](study/03_String.py)  
 #### 2月27日  
 > [04_Dict](study/04_Dict.py)  
+> [05_赋值_条件语句_循环](study/05_赋值_条件语句_循环.py)   
+> [06_文本的读取和写入](study/06_文本的读取和写入.py)  
+> [07_函数](study/06_文本的读取和写入.py)  
