@@ -90,3 +90,4 @@ print(array02)
 print(array02.remove("斗地主"))
 print(array02)
 
+
