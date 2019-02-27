@@ -5,13 +5,14 @@
 
 # Python学习记录  
 ## 练习目录
-> [王鑫鑫](practice/wxx/README.md)
+> [王鑫鑫](practice/wxx)
 > [李琛](practice/lc/README.md)
 > [陈红权](practice/chq/README.md)
 > [胡恒超](practice/hhc/README.md)
 > [黄宇欣](practice/hyx/README.md)
 > [张宇寰](practice/zyh/README.md)
 > [路骚峰](practice/lsf/README.md)
+> [test](practice)
 
 ## 目录  
 > [2月26日](#2月26日)  
