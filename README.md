@@ -5,7 +5,7 @@
 
 # Python学习记录  
 ## 练习目录
-> [王鑫鑫](practice/wxx/README.md)
+> [王鑫鑫](practice/wxx)
 > [李琛](practice/lc/README.md)
 > [陈红权](practice/chq/README.md)
 > [胡恒超](practice/hhc/README.md)
