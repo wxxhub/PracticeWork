@@ -11,7 +11,7 @@
 > [胡恒超](practice/hhc)
 > [黄宇欣](practice/hyx)
 > [张宇寰](practice/zyh)
-> [路骚峰](practice/lsf)
+> [路少峰](practice/lsf)
 
 ## 目录  
 > [2月26日](#2月26日)  
