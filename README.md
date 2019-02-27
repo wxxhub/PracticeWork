@@ -21,4 +21,7 @@
 > [02_List](study/02_List.py)  
 > [03_String](study/03_String.py)  
 #### 2月27日  
-> [04_Dict](study/04_Dict.py)  
+> [04_Dict](study/04_Dict.py)
+> [05_赋值_条件语句_循环](study/05_赋值_条件语句_循环.py)  
+> [06_文本的读取和写入](study/06_文本的读取和写入.py) 
+> [07_函数](study/06_文本的读取和写入.py) 
