@@ -1,3 +1,3 @@
-##啥都没有的笔记
+## 啥都没有的笔记
 ----
-[markdown基础语法学习](practice\lc\study_markdown.md)
+[markdown基础语法学习](study_markdown.md)
