@@ -17,8 +17,8 @@
 > [2月26日](#2月26日)  
 > [2月27日](#2月27日)  
 #### 2月26日  
-> [01](study/01_HelloPython.py)  
-> [02](study/02_List.py)  
-> [03](study/03_String.py)  
+> [01_HelloPython](study/01_HelloPython.py)  
+> [02_List](study/02_List.py)  
+> [03_String](study/03_String.py)  
 #### 2月27日  
-> [04](study/04_Dict.py)  
+> [04_Dict](study/04_Dict.py)  
