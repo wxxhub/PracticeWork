@@ -5,7 +5,7 @@
 
 # Python学习记录  
 ## 练习目录
-> [王鑫鑫](practice/wxx)
+> [王六斤](practice/wxx)
 > [李琛](practice/lc)
 > [陈红权](practice/chq)
 > [胡恒超](practice/hhc)
