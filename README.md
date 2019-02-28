@@ -31,6 +31,4 @@
 > [单继承](study/单继承)  
 > [多继承](study/多继承)  
 
-xvzdgsdsafaWfwafefasdqwf
 
-asdas
