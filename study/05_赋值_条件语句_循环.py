@@ -18,7 +18,7 @@ print(x,y,z)
 # elif name.startswith("甄"):
 #     pass
 # else:
-#     pass
+#     pass2
 
 # 嵌套if语句
 print("===========嵌套if语句===========")
@@ -26,19 +26,39 @@ name = int(input("1.狄仁杰 \n2.曹操 \n3.后羿\n请输入英雄编号："))
 # (int)值
 print(type(name))
 if name == 1:
-    print("您已经选定英雄：%d\n 请选择行走路线:1.上路 \n2.下路 \n3.中单"%name)
+    print("您已经选定英雄：%d\n 请选择行走路线:\n1.上路 \n2.下路 \n3.中单"%name)
     num = int(input("请输入编号:"))
-    if num == 1:
+    if num == 1:  
+        print("您选择e英雄：%d,路线选择%d"%(name,num))
+        pass
+    elif num == 2:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+    else:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+elif name == 2:
+    if num == 1: 
         print("您选择英雄：%s,路线选择%d"%(name,num))
         pass
     elif num == 2:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+    else:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
         pass
     pass
-elif name == 2:
-    pass
 else:
-    pass
-
+    if num == 1: 
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+    elif num == 2:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+    else:
+        print("您选择英雄：%s,路线选择%d"%(name,num))
+        pass
+pass
 # 【2】===循环语句===
 print("=======while循环输出语句=========")
 array_01 = ["1.消灭病毒","2.斗地主","3.欢乐麻将","4.跳一跳","5.泡泡大作战"];
