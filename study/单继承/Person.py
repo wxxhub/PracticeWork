@@ -2,7 +2,7 @@ class person(object):
 
     def __init__(self,age):
         # self.name = name;
-        self.age = age;
+        #self.age = age;
         # self.sex = sex;
         # self.height = height;
         # self.money = money;

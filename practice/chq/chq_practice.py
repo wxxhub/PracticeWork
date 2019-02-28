@@ -51,13 +51,7 @@ print(bicycles)
 
 # 条件语句
 #if elif ....else
-
-safasf
-##
-sf2@
     
-
-
 
 
 
