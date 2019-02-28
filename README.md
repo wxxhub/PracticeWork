@@ -28,8 +28,9 @@
 > [07_函数](study/06_文本的读取和写入.py)  
 #### 2月28日
 > [08_类的创建和使用](study/08_类的创建和使用.py)  
-> [单继承](study/Case01/单继承)  
-> [多继承](study/Case01/多继承)  
-> [Child.py](study/Child.py)
+> [单继承](study/Case01/单继承)    
+> [多继承](study/Case01/多继承)   
+> [Child.py](study/Child.py)  
+> [Image_Show](study/Image_Show)  
 
 
