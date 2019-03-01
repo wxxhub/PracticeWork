@@ -54,7 +54,7 @@ class Car():
     def message(self):         #汽车整体信息
         long_name = str(self.year) +" " +self.make +" " +self.model
         return long_name.title()
-        pass
+
     def read_odometer(self):   #里程信息          
         print("This car is " + str(self.odometer_reading) +" miles on it")
         pass
@@ -63,7 +63,8 @@ class Car():
         pass
     def increment_odometer(self,miles):
         self.odometer_reading +=miles     #将里程表增加到指定的量
-
+        pass
+        
 my_new_car = Car("audi","a4","2016")
 print(my_new_car.message())
 my_new_car.odometer_reading = 23  #修改里程方法一
@@ -78,4 +79,10 @@ my_used_car.increment_odometer(100)
 my_used_car.read_odometer()
 
 #继承
-class ElectricCar(Car)
+class ElectricCar(Car):
+    def __init__(self,make,model,year):
+        super().__init__(make,model,year)
+        pass
+
+my_tesla = ElectricCar("tesla","model s",2016)
+print(my_tesla.message())
