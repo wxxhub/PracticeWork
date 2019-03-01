@@ -1,9 +1,13 @@
 /* main_bar */
-#main_bar
-{
-    min-height: 50px;
+#main_bar{
+    min-height: 55px;
     height: auto;
+    width: 100%;
+
+    margin-top: 20px;
+    margin-left: 20px;
 }
+
 #main_bar ul{
     list-style-type: none;
     margin: 0px;
@@ -16,8 +20,8 @@
     border-bottom-left-radius: 10px;
     float: left;
     border: 2px solid #55555542;
-    border-right:  #dadada42;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8)
+    border-left:  #dadada42;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8)
 }
 
 #main_bar ul button{
@@ -31,6 +35,13 @@
 
 #main_bar ul button:hover{
     background-color: #777777;
+    color: #ffffff;
+    border: 3px solid #444444;
+    box-shadow: 0px 0px 10px rgba(5, 5, 5, 0.8)
+}
+
+#main_bar ul button.active{
+    background-color: #8eb389;
     color: #ffffff;
     border: 3px solid #444444;
 }
@@ -48,21 +59,24 @@
 } */
 
 /* control_panel */
-
 #test{
     min-height: 500px;
     width: 100%;
     min-width: 520px;
 
-    background-color: #ff1414;
-    border: 1px solid #550000;
+    background-color: #dadada42;
+
+    border: 2px solid #55555542;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    margin-left: 20px;
     padding: 5px;
 
-    position: absolute;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
 }
 
 .control_panel1{
-
     display: none;
 }
 

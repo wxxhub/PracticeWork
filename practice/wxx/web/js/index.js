@@ -3,7 +3,9 @@ $("#main_bar button").click(function(){
     var tab_id = $(this).attr('id');
     $('div').removeClass('current');
     var class_name = $(this).attr('class');
-    $('.'+tab_id).addClass('current');
+	$('.'+tab_id).addClass('current');
+	
+	$(this).toggleClass('active');
 });
 
 /*
