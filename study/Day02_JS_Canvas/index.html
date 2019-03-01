@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Canvas游戏-小案例</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<!--创建一个画布：画布的大小根据游戏背景大小来设置-->
+		<canvas id="CanvasGame" width="1024px" height="768px"></canvas>
+		
+		<!--得分-->
+		<p id="number">得分:0</p>
+		<!--游戏结束提示-->
+		<div id="gameover">
+			游戏结束
+			<div id="gamestart">重新开始</div>
+		</div>
+		<!--音频文件-->
+		<!--autoplay="autoplay" 自动播放  loop="loop"循环播放-->
+		<audio src="mp3/happy.mp3" autoplay="autoplay" loop="loop"></audio>
+		<audio src="mp3/bucket1.mp3" id="mp3"></audio>
+		<script type="text/javascript" src="js/canvasstyle.js" ></script>
+	
+	</body>
+</html>

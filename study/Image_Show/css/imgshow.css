@@ -14,6 +14,8 @@ body{
 	/*background: darkblue;*/
 	/*background: #ff00ff;*/
 	background: rgb(20,100,200);
+	/*溢出隐藏*/
+	overflow: hidden;
 }
 /*【2】ID选择器*/
 #piclist{
@@ -116,7 +118,8 @@ body{
 	margin-left: 420px;
 }
 
-/* */
+
+
 
 
 
