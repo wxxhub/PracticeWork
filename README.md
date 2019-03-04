@@ -17,7 +17,7 @@
 > [2月26日](#2月26日)  
 > [2月27日](#2月27日)  
 > [2月28日](#2月28日) 
-> [3月1日](#3月1日)  
+> [3月1日](#3月1日)     
 > [3月2日](#3月2日)    
 > [3月4日](#3月4日)  
 #### 2月26日  
@@ -37,9 +37,9 @@
 > [Image_Show](study/Image_Show)
 
 ### 3月1日
-> [Day02_JS_Canvas](study/Day02_JS_Canvas)
-> [Day03_JS_Magnifier](study/Day03_JS_Magnifier)
-> [Image_Show](study/Image_Show)
+> [Day02_JS_Canvas](study/Day02_JS_Canvas)  
+> [Day03_JS_Magnifier](study/Day03_JS_Magnifier)  
+> [Image_Show](study/Image_Show)  
 
 #### 3月2日
 > [01_urllib网络访问](study/01_urllib网络访问.py)  
