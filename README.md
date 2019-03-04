@@ -16,8 +16,9 @@
 ## 目录  
 > [2月26日](#2月26日)  
 > [2月27日](#2月27日)  
-> [2月28日](#2月28日)  
-> [3月2日](#3月2日)  
+> [2月28日](#2月28日) 
+> [3月1日](#3月1日)  
+> [3月2日](#3月2日)    
 > [3月4日](#3月4日)  
 #### 2月26日  
 > [01_HelloPython](study/01_HelloPython.py)  
@@ -33,7 +34,12 @@
 > [单继承](study/Case01/单继承)    
 > [多继承](study/Case01/多继承)   
 > [Child.py](study/Child.py)  
-> [Image_Show](study/Image_Show)  
+> [Image_Show](study/Image_Show)
+
+### 3月1日
+> [Day02_JS_Canvas](study/Day02_JS_Canvas)
+> [Day03_JS_Magnifier](study/Day03_JS_Magnifier)
+> [Image_Show](study/Image_Show)
 
 #### 3月2日
 > [01_urllib网络访问](study/01_urllib网络访问.py)  
