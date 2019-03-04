@@ -41,3 +41,4 @@
 
 #### 3月4日
 > [BeautifuSoup4](study/01_BeautifulSoup4.py)  
+> [BeautifuSoup4](study/01_Bs_Mp3.py)
