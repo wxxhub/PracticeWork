@@ -18,6 +18,7 @@
 > [2月27日](#2月27日)  
 > [2月28日](#2月28日)
 > [3月2日](#3月2日)
+> [3月4日](#3月4日)
 #### 2月26日  
 > [01_HelloPython](study/01_HelloPython.py)  
 > [02_List](study/02_List.py)  
@@ -37,3 +38,6 @@
 #### 3月2日
 > [01_urllib网络访问](study/01_urllib网络访问.py)  
 > [02_urllib网络图片访问](study/02_urllib网络图片访问.py)    
+
+#### 3月4日
+> [BeautifuSoup4](study/01_BeautifulSoup4.py)  
