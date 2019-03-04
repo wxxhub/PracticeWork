@@ -9,7 +9,7 @@ print (test_str2)
 
 while 'ab' in test_str:
     site = test_str.find('ab')
-    test_str = test_str.replace("ab", "AB", 1)
+    test_str = test_str.replace("ab", "ABCD", 1)
     print ("ab site: %d have change to AB"%(site))
 
 print (test_str)

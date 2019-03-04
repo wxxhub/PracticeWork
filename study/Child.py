@@ -16,7 +16,7 @@ class Child_01(Mother_01,Father_01):
 
     pass
 
-# 实例化
+# 实例化W
 child_01 = Child_01(1000,200)
 # 子类调用母亲的属性
 print("调用母亲的属性：",child_01.managemoney);
