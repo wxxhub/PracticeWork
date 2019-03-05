@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>机器人控制平台</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="main_bar">
+            <ul>
+                <li><button id="panel1_test" onclick="changePanel('panel1')">行为控制</button></li>
+                <li><button id="panel2_test" onclick="changePanel('panel2')">视觉调试</button></li>
+                <li><button id="panel3_test" onclick="changePanel('panel3')">动作控制</button></li>
+                <li><button id="panel4_test" onclick="changePanel('panel4')">摄像头调节</button></li>
+            </ul>
+        </div>
+        <div id="panel1" class="panel">
+            行为控制
+        </div>
+        <div id="panel2" class="panel">
+                视觉调试
+        </div>
+        <div id="panel3" class="panel">
+                动作控制
+        </div>
+        <div id="panel4" class="panel">
+                摄像头调节
+        </div>
+    </body>
+
+    <!--导入JQuery.js-->
+    <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</html>

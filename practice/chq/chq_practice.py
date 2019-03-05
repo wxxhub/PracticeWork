@@ -49,6 +49,14 @@ print(popped_bicycles) #pop()删除列表末尾元素
 bicycles.remove('chq')
 print(bicycles)
 
+# 条件语句
+#if elif ....else
+    
+
+
+
+
+
 
 
 

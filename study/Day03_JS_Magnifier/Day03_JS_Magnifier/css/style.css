@@ -1,0 +1,43 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#box{
+	width: 400px;
+	height: 400px;
+	background: aquamarine;
+	margin-top: 100px;
+	margin-left: 200px;
+	position: relative;
+}
+.posi{
+	width: 266px;
+	height: 400px;
+	margin: 0px auto;
+	position: relative;
+}
+.posi span{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 133px;
+	height: 133px;
+	display: none;
+	background:url(../img/Tb2.png);
+}
+.bigimg{
+	width: 400px;
+	height: 400px;
+	background: #7FFFD4;
+	/*超出容器的部分隐藏*/
+	overflow: hidden;
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	display: none;
+}
+#bimg{
+	position: absolute;
+}

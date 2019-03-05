@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品放大效果</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="box">
+			<!--默认商品小图-->
+			<div class="posi">
+				<!--小图部分-->
+				<img  src="img/TB2400x400.jpg" />
+				<!--span挡板部分-->
+				<span class="move"></span>
+				
+			</div>
+			<!--商品大图的部分-->
+			<div class="bigimg">
+				<img id="bimg" src="img/TB2.jpg" />
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	<!--导入-->
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<!--可以支持编写js代码的环境-->
+	<script type="text/javascript" >
+		$(function(){
+			//1.获取小图片容器
+			var $gs = $("#box .posi"); //div class= "posi"
+			//2.获取挡板容器
+			var $gsmove = $("#box span");
+			//3.获取存放大照片容器
+			var $gsImg = $("#box .bigimg");
+			
+			//4.给小图片容器获取鼠标浮动的触发事件
+			$gs.hover(function(){
+				//把挡板显示出来，把存放大照片的容器显示出来
+				//让挡板渐入 10毫秒
+				$gsmove.fadeIn(10);
+				$gsImg.fadeIn(10);
+				
+			},function(){//当鼠标不在悬浮范围内后执行。
+				$gsmove.fadeOut(10);
+				$gsImg.fadeOut(10);
+			});
+			//5.获取鼠标移动的坐标 - 控制挡板的移动
+			$gs.mousemove(function(e){
+				console.log("鼠标的坐标为:("+e.clientX+","+e.clientY+")");
+				//获取鼠标的坐标参数
+				var cx =e.clientX;
+				var cy =e.clientY;
+				//获取小图容器的坐标
+				//offset:当前元素针对于相对浏览器body的位置
+				var gl = $gs.offset().left;//获取X坐标
+				var gt = $gs.offset().top;//获取到Y坐标
+				console.log("小容器的坐标为:("+gl+","+gt+")")
+				//挡板相对要移动的位置
+				//cx - gl >=0  ;X轴方向要移动的距离
+				//cy - gt >=0  ;Y移动轴方向要距离
+				//获取挡板的宽高的一半
+				var mw = $gsmove.width()/2;
+				var mh = $gsmove.height()/2;
+				//做判断,挡板的移动距离不能未赋值
+				var mleft = cx-gl-mw;
+				var mtop = cy-gt-mh;
+				//小容器的宽高
+				var gsw = $gs.width();
+				var gsh = $gs.height();
+				
+				if(mleft<=0){
+					mleft = 0;
+				}else if(mleft>=gsw-mw*2){
+					mleft = gsw - mw*2;
+				}
+				if(mtop<=0){
+					mtop = 0;
+				}else if(mtop>=gsh - mh*2){
+					mtop = gsh-mh*2
+				}			
+				//挡板要移动的位置
+				$gsmove.css({"left":mleft,"top":mtop});
+				//根据移动的比例控制大图的移动比例 ;0<=2<=10 = 2/10
+				var l_b = mleft/(gsw-mw*2);
+				var t_b = mtop/(gsh-mh*2);
+				//大图要移动的距离
+				var b_left = l_b*($("#box .bigimg img").width() - $gsImg.width());
+				var b_top = t_b*($("#box .bigimg img").height() - $gsImg.height());
+				console.log("大图要移动的距离:"+b_left+","+b_top)
+				$("#bimg").css({"left":-b_left,"top":-b_top});
+				
+//				$("#box .bigimg img").css({"left":-b_left,"top":-b_top});
+				
+			});
+			
+			
+		});
+		
+	</script>
+</html>
