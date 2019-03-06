@@ -38,7 +38,7 @@
 > [Child.py](study/Child.py)  
 > [Image_Show](study/Image_Show)
 
-### 3月1日
+#### 3月1日
 > [Day02_JS_Canvas](study/Day02_JS_Canvas)  
 > [Day03_JS_Magnifier](study/Day03_JS_Magnifier)  
 > [Image_Show](study/Image_Show)  
@@ -54,6 +54,6 @@
 #### 3月5日
 > [01_小说下载](study/01_小说下载.py)    
 
-### 3月6日
+#### 3月6日
 > [01_Excel](study/01_Excel.py)        
 > [01_豆瓣图书_Excel](stduy/01_豆瓣图书_Excel.py)       
