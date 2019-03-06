@@ -55,4 +55,5 @@
 > [01_小说下载](study/01_小说下载.py)    
 
 ### 3月6日
-> [01_Excel](study/01_Excel.py)
+> [01_Excel](study/01_Excel.py)        
+> [01_豆瓣图书_Excel](stduy/01_豆瓣图书_Excel.py)       
