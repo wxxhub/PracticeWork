@@ -54,7 +54,7 @@ def Get_xiaoshuo_mulu(url,xiaoshuo_name,header):
         data = requests_01.text;
         # print(str(data));
         # 6.将网站信息保存到本地：
-        file_path = "C:\/Users\/Administrator\/Desktop\/WHGC2_2019年2月26日\/08_Request_网络小说爬虫\/01_笔趣看小说爬虫下载工具\/%s\/"%xiaoshuo_name;
+        file_path = "D:\/Program Files\/feiq\/Recv Files\/08_Request_网络小说爬虫\/01_笔趣看小说爬虫下载工具\/%s\/"%xiaoshuo_name;
         print(file_path)
         # 7.判断路径是否存在
         if not os.path.exists(file_path):
