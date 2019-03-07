@@ -57,7 +57,7 @@
 
 #### 3月6日
 > [01_Excel](study/01_Excel.py)        
-> [01_豆瓣图书_Excel(1)](stduy/01_豆瓣图书_Excel.py)    
+> [01_豆瓣图书_Excel(1)](study/01_豆瓣图书_Excel.py)    
 
 #### 3月7日     
 > [01_豆瓣图书_Excel(2)](stduy/01_豆瓣图书_Excel(1).py)    
