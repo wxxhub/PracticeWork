@@ -61,6 +61,13 @@
 
 #### 3月7日     
 > [01_豆瓣图书_Excel(2)](study/01_豆瓣图书_Excel(1).py)   
-> [02_豆瓣图书_Excel(3)](study/01_豆瓣图书_Excel(2).py)   
+> [02_豆瓣图书_Excel(3)](study/01_豆瓣图书_Excel(2).py)
+
 #### 3月8日     
-> [03人脸识别](study/03_人脸识别.py)   
+> [03人脸识别](study/03_人脸识别.py) 
+
+#### 3月11日
+>[demo0](study/demo0.py)
+
+#### 3月12日
+>[demo](study/demo.py)
