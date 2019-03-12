@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="content">
+    <h1>{{ article.title }}</h1>
+    <div class="date">{{ article.date }}</div>
+    <div class="text">
+        {{ article.text }}
+    </div>
+</div>
+{% endblock %}
+
+
+{% block sidebar %}
+<div class="sidebar">边栏: ...</div>
+{% endblock %}
+
+
+{% block comment %}
+<div class="comment">
+    评论区:
+    {% if person.sex == 'male' %}
+    <p>Hi, boy!</p>
+    {% else %}
+    <p>Hi, girl!</p>
+    {% endif %}
+</div>
+{% endblock %}

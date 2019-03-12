@@ -1,51 +1,29 @@
 <html>
     <head>
-        <title>{{ title }}</title>
+        <title>{{ article.title }}</title>
     </head>
 
     <body>
-        <div class="navbar">
-            <img
-                src="https://mat1.gtimg.com/pingjs/ext2020/newom/build/static/images/logo.png"
-            />
-            <ul>
-                <li>
-                    <a href="..."> {{ nav.0 }} </a>
-                </li>
-                <li>
-                    <a href="..."> {{ nav.1 }} </a>
-                </li>
-                <li>
-                    <a href="..."> {{ nav.2 }} </a>
-                </li>
-                <li>
-                    <a href="..."> {{ nav.3 }} </a>
-                </li>
-                <li>
-                    <a href="..."> {{ nav.4 }} </a>
-                </li>
-                <li>
-                    <a href="..."> {{ nav.5 }} </a>
-                </li>
-            </ul>
-        </div>
 
-        <div class="content">
-            <h1>{{ title }}</h1>
-            <div>{{ text }}</div>
-        </div>
+        {% include "nav.html" %}
+
+        <!-- 正文 -->
+        {% block content %}{% endblock %}
 
         <hr />
+        <!-- 边栏 -->
+        {% block sidebar %}{% endblock %}
 
-        <div class="sidebar">边栏：...</div>
         <hr />
+        <!-- 评论区 -->
+        {% block comment %}{% endblock %}
 
-        <div class="comment">评论区：...</div>
         <hr />
+        <!-- 推荐区 -->
+        <div class="rcmd">推荐区: ...</div>
 
-        <div class="rcmd">推荐区：...</div>
         <hr />
-
-        <div class="footer">版权区：...</div>
+        <!-- 底栏 -->
+        <div class="footer">底栏: ...</div>
     </body>
 </html>

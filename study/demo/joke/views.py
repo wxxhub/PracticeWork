@@ -1,17 +1,27 @@
 from django.shortcuts import render
 
-from django.http import HttpResponse
+
+class Article:
+    def __init__(self):
+        self.title = 'hello'
+        self.date = '2019-3-12'
+        self.text = '从沪深港通南北资金流向看，截至发稿，南向资金净流入6.69亿元，其中沪港通净流入3.6亿元，当日资金余额为416.4亿元，深港通净流入3.09亿元，当日资金余额为416.91亿元。'
+
+
+class Person:
+    def __init__(self):
+        self.name = 'Lucy'
+        self.sex = 'girl'
 
 
 def home(request):
-    aaa = ['动漫', '欧美大片', '电视剧', 'NBA', '体育', '时尚']
-    data = {
-        'title': '今日要闻',
-        'text': '电动自行车新国标确实自2019年4月15日起实施，但在用超标车辆能否上路行驶，以及能行驶多久，要看当地对于过渡期间管理的具体规定，并没有一刀切的皆不准上路。至于具体过渡期有多久、需要办什么手续、怎么办，还请车主咨询当地交管部门。所以，网传的“4月15日起，违规电动车都不准上路”等消息并不确切，而是多有不实。',
-        'nav': aaa,
+    nav = ['军事', '科技', '汽车', '体育']
+    article = Article()
+    bob = Person()
+
+    context = {
+        'nav': nav,
+        'article': article,
+        'person': bob
     }
-    return render(request, 'base.html', data)
-
-
-def talk(request):
-    return HttpResponse('Miao Miao ~')
+    return render(request, 'article.html', context)
