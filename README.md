@@ -69,7 +69,7 @@
 > [03人脸识别](study/03_人脸识别.py) 
 
 #### 3月11日
->[demo0](study/demo0.py)
+>[demo0](study/demo0/)
 
 #### 3月12日
->[demo](study/demo.py)
+>[demo](study/demo/)
