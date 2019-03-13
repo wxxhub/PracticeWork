@@ -28,7 +28,7 @@
 > [任务](develop_log/backstage_mission.md)  
 > [开发日志](develop_log/backstage_log.md)  
 
-#### .gitignore
+#### .gitignore(记得添加)
 ```
 .vscode
 __pycache__
@@ -38,5 +38,5 @@ tests.py ##用于本地测试
 
 #### 使用
 > python manage.py runserver  
-> 或者
+> 或者  
 > python3 manage.py runserver  
