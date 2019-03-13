@@ -3,8 +3,6 @@
 #### 工程目录
 * app
     * migrations
-    * templates
-        * html
     * apps.py
     * models.py
     * admin.py
@@ -13,6 +11,8 @@
     * settings.py
     * urls.py
     * wsgi.py
+* templates
+    * html
 * static
     * image
     * css
