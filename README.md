@@ -35,3 +35,8 @@ __pycache__
 db.sqllite3 
 tests.py ##用于本地测试
 ```
+
+#### 使用
+> python manage.py runserver  
+> 或者
+> python3 manage.py runserver  
