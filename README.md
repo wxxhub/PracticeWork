@@ -1,4 +1,5 @@
 # PracticeWork
+## 注意看README!!!!
 
 #### 工程目录
 * app
@@ -20,9 +21,17 @@
 * manage.py
 
 #### 前端组
-> [任务](develop_log/front_end_mission.md)
-> [开发日志](develop_log/front_end_log.md)
+> [任务](develop_log/front_end_mission.md)  
+> [开发日志](develop_log/front_end_log.md)  
 
 #### 后台组
-> [任务](develop_log/backstage_mission.md)
-> [开发日志](develop_log/backstage_log.md)
+> [任务](develop_log/backstage_mission.md)  
+> [开发日志](develop_log/backstage_log.md)  
+
+#### .gitignore
+```
+.vscode
+__pycache__
+db.sqllite3 
+tests.py ##用于本地测试
+```
