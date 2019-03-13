@@ -69,11 +69,8 @@
 #### 3月8日     
 > [03人脸识别](study/03_人脸识别.py) 
 
-#### 3月11日
->[demo0](study/demo0.py)
-
-#### 3月12日
+#### 3月11日 AND 3月12日
 >[demo](study/demo.py)
 
-#### 3月12日
+#### 3月13日
 >[Study_pdf](study/study_pdf)
