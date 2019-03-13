@@ -20,5 +20,9 @@
 * manage.py
 
 #### 前端组
+> [任务](develop_log/front_end_mission.md)
+> [开发日志](develop_log/front_end_log.md)
 
 #### 后台组
+> [任务](develop_log/backstage_mission.md)
+> [开发日志](develop_log/backstage_log.md)
