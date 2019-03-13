@@ -1,2 +1,0 @@
-def Haha():
-    print("Haha")
